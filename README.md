@@ -1,1 +1,1 @@
-# 06-compliment-generator
+# Compliment Generator App from Scratch
