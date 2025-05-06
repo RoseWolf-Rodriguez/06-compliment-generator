@@ -3,8 +3,8 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "GitHub.copilot",
-        "ms-vscode.live-server"
+        "ms-vscode.live-server",
+        "esbenp.prettier-vscode"
       ],
       "settings": {
         "livePreview.autoRefreshPreview": "On All Changes in Editor",
@@ -14,7 +14,9 @@
         "editor.insertSpaces": true,
         "editor.detectIndentation": false,
         "editor.wordWrap": "on",
-        "editor.stickyScroll.enabled": false
+        "editor.stickyScroll.enabled": false,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
       }
     }
   }
