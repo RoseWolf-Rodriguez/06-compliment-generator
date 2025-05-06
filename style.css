@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Onest", sans-serif;
+  color: #354664;
+  text-align: center;
+  background: #1ccdfe;
+  padding: 32px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 38px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.compliment-image {
+  display: block;
+  margin: 20px auto 0;
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  background-color: #f95f62;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #e14c51;
+}
